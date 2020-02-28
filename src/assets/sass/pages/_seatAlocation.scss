@@ -1,0 +1,73 @@
+.seat{
+    margin-top: 2%;
+    margin-bottom: 5%;
+    background-color: $color-lighttheme;
+    padding-top: 1%;
+    padding-left: 1%;
+
+    &__title{
+        color: $color-grey-light;
+        font-size: 15px;
+        padding-bottom: 3%;
+
+        &--text{
+            font-size: 12px;
+            text-align: center;
+        }
+    }
+
+    &__labeltext{
+        color: $color-grey-light;
+        font-size: 13px;
+    }
+
+    &__input{
+        background-color: $color-theme !important;
+        border-color: $color-theme !important;
+        opacity: 1;
+    }
+
+    &__btnrow{
+        margin-bottom: 5%;
+
+        &--btnallocation{
+            margin-bottom: 1%;
+            margin-top: 1%;
+        }
+    }
+
+    &__btn{
+        background-color: $color-cold-purple !important;
+        border-color: $color-cold-purple !important;
+        border-radius: 4px !important;
+        opacity: 1;
+    }
+
+    &__seatrow{
+        background-color: $color-theme;
+        padding: 20px 0 20px 20px;
+    }
+
+    &__textrow{
+        padding: 20px 0 0 0;
+    }
+
+    &__system{
+        width: 15%;
+        position: absolute;
+        top: 125%;
+        left: 50%;
+    }
+
+    &__hr{
+        background-color: $color-purple-light;
+    }
+
+    &__rotatechair{
+        transform: rotate(180deg);
+    }
+
+    &__seatselection{
+        filter: invert(43%) sepia(96%) saturate(1237%) hue-rotate(88deg) brightness(128%) contrast(119%);
+    }
+}
